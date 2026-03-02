@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <!-- Navbar -->
-    <nav role='navigation'>
-        <ul role='list'>
-            <li role='listitem'><a href="#">Home</a></li>
-            <li role='listitem'><a href="#">Audios</a></li>
-            <li role='listitem'><a href="#">Contact</a></li>
+
+    <!-- Part 1: Semantic Navbar -->
+    <nav>
+        <ul>
+            <li><a href="https://example.com/home">Home</a></li>
+            <li><a href="https://example.com/about">About</a></li>
+            <li><a href="https://example.com/contact">Contact</a></li>
         </ul>
     </nav>
-	<section id="audio-section">
-		<h1 role="heading">3 random audios</h1>
-		<audio controls >
-			<source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" >
-		</audio>
-		<audio controls >
-			<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-		</audio>
-		<audio controls >
-			<source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
-		</audio>
-</section>
-		
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Part 2: Audio Section -->
+    <section>
+        <h2>3 random audios</h2>
+
+        <audio controls 
+            src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">
+        </audio>
+
+        <audio controls 
+            src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+        </audio>
+
+        <audio controls 
+            src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
+        </audio>
+
+    </section>
+
+    <script src="./script.js"></script>
 
 </body>
 
